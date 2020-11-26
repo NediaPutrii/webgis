@@ -39,12 +39,12 @@ session_start();
       <!--LOADER-->
     <style>
     .html5gallery img {
-      width:400px !important;
+      width:420px !important;
       left: 0px !important;
     }
     .html5gallery-car-0 {
       margin-top:5px;
-      width : 400px !important;
+      width : 420px !important;
     }
     #loader {
       border: 16px solid #f3f3f3;
@@ -256,8 +256,8 @@ session_start();
                         <div class="panel-body">
                             <a class="btn btn-compose" style="background-color:black;border-bottom:black">Gallery</a>
                             <div class="content" style="text-align:center;">
-                            <div style="overflow-y: auto; overflow-x:auto; margin:15px; display:flex; justify-content:center">
-                              <div class="html5gallery" style="max-height:700px; overflow:auto; display:block;" data-skin="horizontal" data-width="400" data-height="250" data-resizemode="fit">
+                            <div style="margin:15px; display:flex; justify-content:center">
+                              <div class="html5gallery" style="max-height:700px; display:block;" data-skin="horizontal" data-width="420" data-height="250" data-resizemode="fit">
                               <?php
                                 
                                   if (strpos($id,"H") !== false) {  //Hotel

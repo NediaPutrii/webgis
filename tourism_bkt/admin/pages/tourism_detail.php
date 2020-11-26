@@ -33,12 +33,12 @@ while($baris = pg_fetch_array($hasil3)){
 
 <style>
 .html5gallery img {
-      width:400px !important;
+      width:420px !important;
       left: 0px !important;
     }
     .html5gallery-car-0 {
       margin-top:5px;
-      width : 400px !important;
+      width : 420px !important;
      
     }
 </style>
@@ -132,8 +132,8 @@ while($baris = pg_fetch_array($hasil3)){
 				        <h3> Picture of <?php echo $name ?></h3>
 			        </header>
 			  
-			        <div style="overflow-y: auto; overflow-x:auto; margin:15px; display:flex; justify-content:center">
-                              <div class="html5gallery" style="max-height:700px; overflow:auto; display:block;" data-skin="horizontal" data-width="400" data-height="250" data-resizemode="fit">
+			        <div style="margin:15px; display:flex; justify-content:center">
+                              <div class="html5gallery" style="max-height:700px; display:block;" data-skin="horizontal" data-width="420" data-height="250" data-resizemode="fit">
 				    	<?php
 							$id=$_GET['id'];
 							$querysearch="SELECT gallery_tourism FROM tourism_gallery where id='$id'";

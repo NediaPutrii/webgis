@@ -63,6 +63,7 @@ session_start();
       /* Position the image container (needed to position the left and right arrows) */
       .container2 {
         position: relative;
+        line-height: 1.3;
       }
 
       /* Hide the images by default */
@@ -70,7 +71,7 @@ session_start();
         display: block;
         width: auto;
         height: auto;
-        padding: 20px;
+        padding: 15px;
         background-color: rgba(219,219,219,0.8);
       } 
 
@@ -158,6 +159,7 @@ session_start();
         float: left;
         width: 25%; 
         padding: 3px;
+        padding-top: 8px;
         background-color: grey;
       }
 
@@ -274,7 +276,7 @@ session_start();
 	position: absolute; 
 	width:1750px;  
 
-	/*pengaturan durasi lama tampil gambar bisa di atur di bawah ini*/
+	/* pengaturan durasi lama tampil gambar bisa di atur di bawah ini
 	animation-name:slider;
 	animation-duration:16s;
 	animation-timing-function: ease-in-out;
@@ -290,12 +292,12 @@ session_start();
 	-o-animation-name:slider;
 	-o-animation-duration:16s;
 	-o-animation-timing-function: ease-in-out;
-	-o-animation-iteration-count:infinite;
+	-o-animation-iteration-count:infinite; */
 }
 
 
 /*saat gambar di hover oleh cursor mouse maka berhenti slide*/
-.isi-slider:hover { 
+/* .isi-slider:hover { 
 	-webkit-animation-play-state:paused; 
 	-moz-animation-play-state:paused; 
 	-o-animation-play-state:paused; 
@@ -319,11 +321,11 @@ session_start();
 
 .imam-slider:hover:after { 
 	color: rgba(255,255,255, 0.6);  
-}
+} */
 
 
 
-@-moz-keyframes slider {     
+/* @-moz-keyframes slider {     
 	0% {
 		left: 0; opacity: 0; 
 	}     
@@ -485,7 +487,7 @@ session_start();
 	100% {
 		left: 0; opacity: 0; 
 	}
-}
+} */
 
     </style>
     
@@ -794,7 +796,7 @@ session_start();
                           <label class="btn btn-compose" id="judul_table" style="background-color:black;border-bottom:black;color:white; margin: 0px;">Popular Object Tourism
                           </label>
                         </header>
-                        <div style="height:500px; margin:20px;">
+                        <div style="height:300px; margin:20px;">
 
                         <div id="populertourism">
                           <div class="container2">
@@ -1015,7 +1017,7 @@ session_start();
                       <div id="view_table_sekitar" class="col-md-4 col-sm-4 mb" style="display:none">
                         <div class="white-panel pns" style="height:510px">
                            <div class="white-header" style="height:40px;margin:20px;margin-top:0px;background:white;color:black">
-                             <h5 class="btn btn-compose"  id="head-angkot" style="background-color:black;border-bottom:black">Search Results Object Around</h5>
+                             <h5 class="btn btn-compose" id="head-angkot"  style="background-color:black;border-bottom:black">Search Results Object Around</h5>
                            </div>
                            <div class="row">
                              <div class="col-sm-6 col-xs-6"></div>
@@ -1053,7 +1055,7 @@ session_start();
                       <div id="view_kanan_track" class="col-md-4 col-sm-4 mb" style="margin-top:20px;display:none">
                         <div class="white-panel pns">
                            <div class="white-header" style="height:40px;margin:20px;background:white;color:white">
-                             <h5 class="btn btn-compose" id="judul_select">Local Transportation Recommendations</h5>
+                             <h5 class="btn btn-compose" id="judul_select">Local Transportion Recommendations</h5>
                            </div>
                            <div class="row">
                              <div class="col-sm-6 col-xs-6"></div>
