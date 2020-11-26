@@ -800,7 +800,7 @@ session_start();
 
                         <div id="populertourism">
                           <div class="container2">
-                            <div class="row2" style="height:315px;">
+                            <div class="row2">
                             <div class="mySlides">
                             <a href="" onclick="galleryreco('tw001')"><img src="../_foto/tw0012.jpg" style="width:100%"></a><div style="background-color: black"><label style="color:white">Jam Gadang</label></div>
                               </div>

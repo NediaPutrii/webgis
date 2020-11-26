@@ -257,7 +257,7 @@ session_start();
                             <a class="btn btn-compose" style="background-color:black;border-bottom:black">Gallery</a>
                             <div class="content" style="text-align:center;">
                             <div style="margin:15px; display:flex; justify-content:center">
-                              <div class="html5gallery" style="max-height:700px; display:block;" data-skin="horizontal" data-width="420" data-height="250" data-resizemode="fit">
+                              <div class="html5gallery" style="max-height:700px;margin-right:10px; display:block;" data-skin="horizontal" data-width="420" data-height="250" data-resizemode="fit">
                               <?php
                                 
                                   if (strpos($id,"H") !== false) {  //Hotel
